@@ -2,15 +2,27 @@
 How to build your own Tic-tac-toe game!
 
 ## Setup
-### Required software:
+### Required software
 Node.js (https://nodejs.org/)
-### Optional:
+### Optional
 React Devtools extension for Chrome and Firefox
 
 ### Instructions
 
-1. Run ````npm install```` to install all of the dependencies
-2. Start the server by running ````npm start````
+#### Downloading the application
+
+Starting in a terminal window...
+
+1. Navigate to where you want the tic-tac-toe folder to reside 
+2. Run ````git clone https://github.com/SCUACM/tic-tac-toe```` to clone the repository to your device
+
+#### Running the application
+
+Starting in a terminal window...
+
+1. Navigate into the tic-tac-toe folder
+2. Run ````npm install```` to install all of the dependencies
+3. Start the server by running ````npm start````
 
 ## Tutorial
 The tic-tac-toe game consists of three components:
@@ -213,5 +225,7 @@ function calculateWinner(squares) {
 ````
 
 You have reached the end of the tutorial!
+
+For more examples of sites that use React, please visit https://github.com/facebook/react/wiki/sites-using-react 
 
 (Adapted from the reactjs.org tutorial - https://reactjs.org/tutorial/tutorial.html - Copyright © 2017 Facebook Inc.)
