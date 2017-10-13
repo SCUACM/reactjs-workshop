@@ -58,3 +58,7 @@ typings/
 .env
 
 #.vs\
+.vs/ProjectSettings.json
+.vs/slnx.sqlite
+.vs/tic-tac-toe/v15/.suo
+.vs/VSWorkspaceState.json
